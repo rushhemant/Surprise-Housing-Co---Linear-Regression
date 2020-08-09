@@ -49,7 +49,6 @@ Determine:  Which variables are significant in predicting the price of a house, 
 * Prediction using lasso regression	<br>
 	
 **Model Conclusion**	<br>
-
 * We will use lasso for final model prediction since: <br>
 * The scores are higher and consistent <br>
 * Model is simpler than ridge (less number of variables) <br>
