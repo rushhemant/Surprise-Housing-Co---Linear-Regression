@@ -49,7 +49,11 @@ Determine:  Which variables are significant in predicting the price of a house, 
 * Prediction using lasso regression	<br>
 	
 **Model Conclusion**	<br>
-	
-**Subjective Questions**	<br>
-* Q1 - Setup to understand behaviour of model if alpha is changed	<br>
-* Q3 - New model by removing top 5 predictor variables	<br>
+
+* We will use lasso for final model prediction since: <br>
+* The scores are higher and consistent <br>
+* Model is simpler than ridge (less number of variables) <br>
+
+* Final score of model: <br>
+* Lasso regression train r2: 0.9281 <br>
+* Lasso regression test r2: 0.9122 <br>
